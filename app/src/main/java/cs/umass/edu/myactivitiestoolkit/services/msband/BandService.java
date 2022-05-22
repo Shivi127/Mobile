@@ -2,9 +2,7 @@ package cs.umass.edu.myactivitiestoolkit.services.msband;
 
 import android.app.Notification;
 import android.app.Service;
-import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -22,8 +20,6 @@ import com.microsoft.band.sensors.SampleRate;
 import cs.umass.edu.myactivitiestoolkit.R;
 import cs.umass.edu.myactivitiestoolkit.constants.Constants;
 import cs.umass.edu.myactivitiestoolkit.services.SensorService;
-import edu.umass.cs.MHLClient.sensors.AccelerometerReading;
-import edu.umass.cs.MHLClient.sensors.GyroscopeReading;
 
 /**
  * The BandService is responsible for starting and stopping the sensors on the Band and receiving

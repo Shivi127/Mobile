@@ -1,7 +1,7 @@
 package cs.umass.edu.myactivitiestoolkit.services;
 
 import android.content.Intent;
-import android.support.v4.content.LocalBroadcastManager;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.util.Log;
 
 import org.imirsel.m2k.util.Window;

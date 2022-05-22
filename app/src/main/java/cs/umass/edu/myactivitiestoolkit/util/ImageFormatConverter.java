@@ -1,6 +1,6 @@
 package cs.umass.edu.myactivitiestoolkit.util;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 /**
  * This class offers static conversion methods between image data formats. For this class, you

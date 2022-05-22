@@ -2,7 +2,7 @@ package cs.umass.edu.myactivitiestoolkit.util;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 
 /**
  * Offers static utility functions for handling application permissions.
